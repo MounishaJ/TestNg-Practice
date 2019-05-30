@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="132" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
+  <suite name="Default suite" duration-ms="56" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
     <groups>
     </groups>
-    <test name="Loan Department" duration-ms="132" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-      <class name="Introduction.Intro1">
-        <test-method status="PASS" signature="disp()[pri:0, instance:Introduction.Intro1@6d00a15d]" name="disp" duration-ms="4" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
+    <test name="Default test" duration-ms="56" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
+      <class name="Test.ReadData">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Test.ReadData@1810399e]" name="Login" duration-ms="17" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- disp -->
-      </class> <!-- Introduction.Intro1 -->
-      <class name="Introduction.Intro">
-        <test-method status="PASS" signature="Z()[pri:0, instance:Introduction.Intro@36d4b5c]" name="Z" duration-ms="30" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Z -->
-        <test-method status="PASS" signature="demo()[pri:0, instance:Introduction.Intro@36d4b5c]" name="demo" duration-ms="2" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method status="PASS" signature="intro()[pri:0, instance:Introduction.Intro@36d4b5c]" name="intro" duration-ms="3" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- intro -->
-      </class> <!-- Introduction.Intro -->
-      <class name="Introduction.RemoveMethodfromExecution">
-        <test-method status="PASS" signature="APISigninhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@51efea79]" name="APISigninhomeloan" duration-ms="1" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APISigninhomeloan -->
-        <test-method status="PASS" signature="APISingouthomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@51efea79]" name="APISingouthomeloan" duration-ms="2" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APISingouthomeloan -->
-        <test-method status="PASS" signature="APIloginhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@51efea79]" name="APIloginhomeloan" duration-ms="4" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APIloginhomeloan -->
-        <test-method status="PASS" signature="mobileloginhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@51efea79]" name="mobileloginhomeloan" duration-ms="3" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileloginhomeloan -->
-        <test-method status="PASS" signature="webloginhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@51efea79]" name="webloginhomeloan" duration-ms="2" started-at="2019-05-30T03:57:14Z" finished-at="2019-05-30T03:57:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- webloginhomeloan -->
-      </class> <!-- Introduction.RemoveMethodfromExecution -->
-    </test> <!-- Loan Department -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Login -->
+      </class> <!-- Test.ReadData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Introduction.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Loan Department(failed)">
+    <classes>
+      <class name="Introduction.Intro">
+        <methods>
+          <include name="login"/>
+          <include name="afterm"/>
+          <include name="befrorem"/>
+        </methods>
+      </class> <!-- Introduction.Intro -->
+      <class name="Introduction.Intro1">
+        <methods>
+          <include name="disp"/>
+        </methods>
+      </class> <!-- Introduction.Intro1 -->
+    </classes>
+  </test> <!-- Loan Department(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+ <listeners>
+ <listener class-name="Introduction.Listeners"/>
+ </listeners>
   <test thread-count="5" name="Loan Department">
     <classes>
       <class name="Introduction.Intro"/>
@@ -12,7 +15,7 @@
   	<classes>
   	 <class name="Introduction.RemoveMethodfromExecution">
   	 	<methods>
-  	 		<exclude name="API.*"/><!-- it removes the method from execution -->
+  	 		<exclude name="API.*"/><!-- it removes the method from execution --><!-- .* it identifies after specified name evreything it should remove from the execution -->
   	 	</methods>
   	 	</class>
   	 	</classes>
