@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
+  <suite name="Default suite" duration-ms="30093" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T07:00:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
-      <class name="Test.ReadData">
-        <test-method status="PASS" signature="Login()[pri:0, instance:Test.ReadData@1810399e]" name="Login" duration-ms="17" started-at="2019-05-30T11:47:47Z" finished-at="2019-05-30T11:47:47Z">
+    <test name="Default test" duration-ms="30093" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T07:00:09Z">
+      <class name="TestNGPractice.Base">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNGPractice.Base@5419f379]" name="launch" is-config="true" duration-ms="18724" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T06:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- Test.ReadData -->
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="selectPlaces()[pri:0, instance:TestNGPractice.Base@5419f379]" name="selectPlaces" duration-ms="6272" started-at="2019-05-31T06:59:58Z" finished-at="2019-05-31T07:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPlaces -->
+        <test-method status="PASS" signature="z()[pri:0, instance:TestNGPractice.Base@5419f379]" name="z" duration-ms="4573" started-at="2019-05-31T07:00:04Z" finished-at="2019-05-31T07:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:TestNGPractice.Base@5419f379]" name="Quit" is-config="true" duration-ms="1" started-at="2019-05-31T07:00:09Z" finished-at="2019-05-31T07:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- TestNGPractice.Base -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

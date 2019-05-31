@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+<test thread-count="5" name="Cleartrip_Practice">
+
+  	<classes>
+  	 <class name="TestNGPractice.Base">
+  	 	</class>
+  	 	<exclude name="TestNGPractice.z"/>
+  	 	</classes>
+  </test>
+</suite> 
