@@ -12,6 +12,9 @@ public class Intro1 {
 	{
 	
 		System.out.println("Testng tutorial");
+		System.out.println("Testng tutorial");
+		System.out.println("Testng tutorial");
+		
 	System.out.println(UserID);
 	}
 }
