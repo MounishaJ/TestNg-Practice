@@ -21,12 +21,12 @@ public class Intro {
 
 		
 		
-		@Parameters({"name"})
+		//@Parameters({"name"})
 		@Test
-		public void login(String id)
+		public void login()
 		{
 			System.out.println("bye");
-			System.out.println(id);
+			//System.out.println(id);
 		}
 		
 		@BeforeMethod

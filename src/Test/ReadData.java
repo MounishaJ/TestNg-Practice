@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.Test;
 
-public class ReadData {
+public class ReadData extends Base {
 
 	static WebDriver driver;
 	@Test

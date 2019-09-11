@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestNGPractice.Base">
+      <class name="Test.ReadData">
         <methods>
-          <include name="selectPlaces"/>
-          <include name="launch"/>
           <include name="Quit"/>
+          <include name="Login"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- TestNGPractice.Base -->
+      </class> <!-- Test.ReadData -->
+      <class name="Test.Base">
+        <methods>
+          <include name="Quit"/>
+          <include name="launch"/>
+          <include name="z"/>
+          <include name="selectPlaces"/>
+        </methods>
+      </class> <!-- Test.Base -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

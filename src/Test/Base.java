@@ -26,7 +26,7 @@ public class Base {
 	public void launch() throws IOException 
 	{
 
-		FileInputStream fis=new FileInputStream("F:\\Automation-Selenium\\TestNGTutorial\\src\\TestNGPractice\\Data.properties");
+		FileInputStream fis=new FileInputStream("F:\\Automation-Selenium\\TestNGTutorial\\src\\Test\\Data.properties");
 		prop.load(fis);
 		
 		if(prop.getProperty("Browser").equals("chrome"))

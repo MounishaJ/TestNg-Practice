@@ -1,29 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30093" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T07:00:09Z">
+  <suite name="Suite" duration-ms="322" started-at="2019-09-11T05:26:30Z" finished-at="2019-09-11T05:26:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30093" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T07:00:09Z">
-      <class name="TestNGPractice.Base">
-        <test-method status="PASS" signature="launch()[pri:0, instance:TestNGPractice.Base@5419f379]" name="launch" is-config="true" duration-ms="18724" started-at="2019-05-31T06:59:38Z" finished-at="2019-05-31T06:59:57Z">
+    <test name="Test" duration-ms="322" started-at="2019-09-11T05:26:30Z" finished-at="2019-09-11T05:26:31Z">
+      <class name="Introduction.Intro1">
+        <test-method status="PASS" signature="disp()[pri:0, instance:Introduction.Intro1@6b2fad11]" name="disp" duration-ms="8" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method status="PASS" signature="selectPlaces()[pri:0, instance:TestNGPractice.Base@5419f379]" name="selectPlaces" duration-ms="6272" started-at="2019-05-31T06:59:58Z" finished-at="2019-05-31T07:00:04Z">
+        </test-method> <!-- disp -->
+      </class> <!-- Introduction.Intro1 -->
+      <class name="Introduction.Intro">
+        <test-method status="PASS" signature="befrorem()[pri:0, instance:Introduction.Intro@79b4d0f]" name="befrorem" is-config="true" duration-ms="1" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectPlaces -->
-        <test-method status="PASS" signature="z()[pri:0, instance:TestNGPractice.Base@5419f379]" name="z" duration-ms="4573" started-at="2019-05-31T07:00:04Z" finished-at="2019-05-31T07:00:09Z">
+        </test-method> <!-- befrorem -->
+        <test-method status="PASS" signature="Z()[pri:0, instance:Introduction.Intro@79b4d0f]" name="Z" duration-ms="1" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- z -->
-        <test-method status="PASS" signature="Quit()[pri:0, instance:TestNGPractice.Base@5419f379]" name="Quit" is-config="true" duration-ms="1" started-at="2019-05-31T07:00:09Z" finished-at="2019-05-31T07:00:09Z">
+        </test-method> <!-- Z -->
+        <test-method status="PASS" signature="afterm()[pri:0, instance:Introduction.Intro@79b4d0f]" name="afterm" is-config="true" duration-ms="0" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Quit -->
-      </class> <!-- TestNGPractice.Base -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterm -->
+        <test-method status="PASS" signature="befrorem()[pri:0, instance:Introduction.Intro@79b4d0f]" name="befrorem" is-config="true" duration-ms="2" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befrorem -->
+        <test-method status="PASS" signature="afterm()[pri:0, instance:Introduction.Intro@79b4d0f]" name="afterm" is-config="true" duration-ms="1" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterm -->
+        <test-method status="PASS" signature="intro()[pri:0, instance:Introduction.Intro@79b4d0f]" name="intro" duration-ms="0" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intro -->
+        <test-method status="PASS" signature="befrorem()[pri:0, instance:Introduction.Intro@79b4d0f]" name="befrorem" is-config="true" duration-ms="0" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befrorem -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Introduction.Intro@79b4d0f]" name="login" duration-ms="1" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterm()[pri:0, instance:Introduction.Intro@79b4d0f]" name="afterm" is-config="true" duration-ms="1" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterm -->
+      </class> <!-- Introduction.Intro -->
+      <class name="Introduction.RemoveMethodfromExecution">
+        <test-method status="PASS" signature="APISigninhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="APISigninhomeloan" duration-ms="158" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISigninhomeloan -->
+        <test-method status="PASS" signature="APISingouthomeloan(java.lang.String, java.lang.String)[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="APISingouthomeloan" duration-ms="1" started-at="2019-09-11T10:56:30Z" data-provider="getData" finished-at="2019-09-11T10:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jeela]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jeela21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISingouthomeloan -->
+        <test-method status="PASS" signature="APISingouthomeloan(java.lang.String, java.lang.String)[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="APISingouthomeloan" duration-ms="0" started-at="2019-09-11T10:56:30Z" data-provider="getData" finished-at="2019-09-11T10:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mounisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mounisha2128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISingouthomeloan -->
+        <test-method status="PASS" signature="APISingouthomeloan(java.lang.String, java.lang.String)[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="APISingouthomeloan" duration-ms="0" started-at="2019-09-11T10:56:30Z" data-provider="getData" finished-at="2019-09-11T10:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mouni]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m2128]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISingouthomeloan -->
+        <test-method status="PASS" signature="APIloginhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="APIloginhomeloan" duration-ms="0" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginhomeloan -->
+        <test-method status="PASS" signature="webloginhomeloan()[pri:0, instance:Introduction.RemoveMethodfromExecution@3fb6a447]" name="webloginhomeloan" duration-ms="0" started-at="2019-09-11T10:56:30Z" finished-at="2019-09-11T10:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+      </class> <!-- Introduction.RemoveMethodfromExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
